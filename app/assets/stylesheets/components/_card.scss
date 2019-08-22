@@ -1,12 +1,15 @@
 .card-product {
   margin-top: 30px;
+  margin-bottom: 10px;
   overflow: hidden;
-  height: 200px;
-  background: $light-gray;
+  height: 180px;
+  background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: flex-start;
-  // justify-content: top;
+  justify-content: center;
+  border: 3px solid $light-gray;
+  border-radius: 2px;
 }
 
 .card-product img {
@@ -31,10 +34,12 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+  background: white;
 }
 .footer-position {
-  position: absolute;
-  bottom: 5px;
+  // position: relative;
+  // bottom: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background: white;
 }
