@@ -1,0 +1,68 @@
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499747/Decent%20Interior/IMG20171209113023.jpg", width: "100%") %>
+      <!-- <img src="img_woods_wide.jpg" style="width:100%"> -->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499748/Decent%20Interior/IMG_0528.jpg", width: "100%") %>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499742/Decent%20Interior/20190715_115058_001.jpg", width: "100%", :angle=>"ignore") %>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg", width: "100%") %>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg", width: "100%") %>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <%= image_tag("https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg", width: "100%") %>
+  </div>
+
+  <!-- Next and previous buttons -->
+   <!-- <a id="prev" onclick="plusSlides(-1)">❮</a> -->
+  <!-- <a id="next" onclick="plusSlides(1)">❯</a> -->
+  <a id="prev">&#10094;</a>
+  <a id="next">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499747/Decent%20Interior/IMG20171209113023.jpg" style="width:100%" onclick="currentSlide(1)" alt="Decent Interior - 1" />
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499748/Decent%20Interior/IMG_0528.jpg" style="width:100%" onclick="currentSlide(2)" alt="Decent Interior - 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499742/Decent%20Interior/20190715_115058_001.jpg" style="width:100%" onclick="currentSlide(3)" alt="Decent Interior - 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg" style="width:100%" onclick="currentSlide(4)" alt="Decent Interior - 4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg" style="width:100%" onclick="currentSlide(5)" alt="Decent Interior - 5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://res.cloudinary.com/logicisaliar/image/upload/v1566499714/Decent%20Interior/27112017_Hitchki_02.jpg" style="width:100%" onclick="currentSlide(6)" alt="Decent Interior - 6">
+    </div>
+  </div>
+</div>

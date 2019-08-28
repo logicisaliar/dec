@@ -57,3 +57,21 @@
   // background-position: center;
   // background-size: cover;
 }
+
+.gray-section {
+  margin-top: 20px;
+  color: $blue;
+  line-height: 1.5;
+}
+
+.gray-info {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.blue-slash {
+  font-size: 25px;
+  display: flex;
+  vertical-align: baseline;
+}
