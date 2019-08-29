@@ -1,3 +1,4 @@
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -74,4 +75,20 @@
   font-size: 25px;
   display: flex;
   vertical-align: baseline;
+}
+
+.recent-projects {
+  margin-top: 30px;
+  color: $blue;
+}
+
+.recent-contact {
+  background-color: white;
+}
+
+.have-something {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: $blue;
+  background-color: white;
 }

@@ -9,7 +9,10 @@
 
 /* Hide the images by default */
 .mySlides {
+  margin-top: 30px;
   display: none;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -26,7 +29,7 @@
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -35,6 +38,10 @@
 }
 
 /* Position the "next button" to the right */
+#prev {
+  left: 0;
+}
+
 #next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -58,12 +65,20 @@
 
 /* Container for image text */
 .caption-container {
+  margin-top: 20px;
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
+  background-color: $blue;
+  border-radius: 3px;
 }
 
+.row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .row:after {
   content: "";
   display: table;
@@ -79,6 +94,7 @@
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+  height: 80px;
 }
 
 .active,

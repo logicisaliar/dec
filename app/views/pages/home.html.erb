@@ -9,7 +9,7 @@
     <hr>
     <h6>At Decent, we are a well-knit team of constructors and designers with an experience of more than 20 years in the field of Interior designing and fabrication work.</h6>
   </div>
-  <%= link_to "TALK TO A DESIGNER", "https://api.whatsapp.com/send?phone=919920204292&text=Hey!%20I%20would%20like%20a%20quote!&source=&data=", class: "blue-button" %>
+  <%= link_to "TALK TO A DESIGNER", "https://api.whatsapp.com/send?phone=919920204292&text=Hey!%20I%20would%20like%20to%20see%20you.&source=&data=", class: "blue-button" %>
   <hr>
   <div class="about-blue">
     <h7>We make sure that a mere location composed of bricks and cement is turned into
@@ -23,71 +23,24 @@
   </div>
 </div>
 
+<%= render 'shared/ourservices' %>
 
-<div class="gray-section">
-  <div class="blus-slash">
-    <%= image_tag("blue-highlighter.png", size: "55x20") %>OUR SERVICES
-  </div>
-  <div class="container">
-    <div class="gray-info">
-      <h7><strong>/</strong> Interior Design And Execution<br>
-        <strong>/</strong> Interior Design And Execution<br>
-        <strong>/</strong> Interior Design And Execution<br>
-        <strong>/</strong> Interior Design And Execution<br>
-        <strong>/</strong> Interior Design And Execution</h7 >
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="blus-slash">
-    <%= image_tag("blue-highlighter.png", size: "55x20") %>OUR SERVICES
+<div class="recent-contact">
+  <div class="blus-slash recent-projects">
+    <%= image_tag("blue-highlighter.png", size: "55x20") %> <i> RECENT MAJOR PROJECTS</i>
   </div>
 
   <%= render 'shared/image' %>
 
-<!-- About -->
-
-<div class="container">
-  <div class="card-product">
-    <div class="card-product-infos">
-      <div class="vertical">
-        <h2>Manoj Makwana</h2>
-        <p>An Interior Designer by profession, he always has his creative juices flowing. He graciously leads our Interior Division with years of experience in interior decor. He is the brains behind those stunning looks and futuristic designs that speak to your heart.</p>
-      </div>
+  <div class="container">
+    <div class="have-something">
+    <hr>
+      <h6><i>Have something in mind?</i></h6>
+      <br>
+      <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptas illum id tempore in quas facilis hic tenetur cupiditate nihil.</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, amet.</p>
     </div>
   </div>
-  <div class="card-product">
-    <div class="card-product-infos">
-      <h2>Himanshu Makwana</h2>
-      <p>A civil engineer by qualification and a Professional Planner with modern
-      edge experience in Project planning and management, he brings a young and fresh approach on the table. Himanshu is a core member of Business development and he also makes sure that all projects are executed in a seamless fashion.</p>
-    </div>
-  </div>
-  <div class="card-product">
-    <div class="card-product-infos">
-      <h2>Prakash Makwana</h2>
-      <p>He spearheads our aluminium fabrication department with an experience of 25 years in the industry. With an impeccable eye for detail, he is a virtuoso of glazing work of buildings, both residential and commercial.</p>
-    </div>
-  </div>
-  <div class="card-product">
-    <div class="card-product-infos">
-      <h2>Amit Bhaip</h2>
-      <p>Mr. Amit leads the Civil construction and finishing work with an in-depth experience of the industrial standards and systems. With the qualities of a leader, he is an ardent worker with incredible managerial skills who is taking this department to greater heights.</p>
-    </div>
-  </div>
-  <div class="card-product">
-    <div class="card-product-infos">
-      <h2>Vishnu Mistry</h2>
-      <p>Interior Designer and avid Executioner of the complex projects. His support in
-      exploring new avenues for the company and delivering the best in terms of design as well as execution is incredible.</p>
-    </div>
-  </div>
-  <div class="card-product">
-    <div class="card-product-infos">
-      <h2>Team</h2>
-      <p>Company is supported by the team of experienced Engineers and expert Site Supervisors.
-      They are our core strength and backbone of the organisation.</p>
-    </div>
-  </div>
+  <!-- About -->
+  <%#= render 'shared/about' %>
 </div>
