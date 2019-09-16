@@ -30,10 +30,14 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+
+.home-margin {
+  margin-right: 50px;
+  margin-left: 50px;
+}
 .about-text {
   background-color: white;
-  padding-right: 30px;
-  padding-left: 30px;
+  color: $dark-gray;
   // box-shadow: 1px 2px rgba(0,0,0,0.1);
   margin-top: 20px;
   margin-bottom: 20px;
@@ -42,14 +46,19 @@
   border-radius: 5px;
 }
 
+.serif {
+  font-style: serif;
+}
+
+.sans-serif {
+  font-style: sans-serif;
+}
 .white {
   background-color: white;
 }
 
 .about-blue {
-  color: $blue;
-  padding-right: 30px;
-  padding-left: 30px;
+  color: black;
 }
 
 .picture-home {
@@ -66,9 +75,13 @@
 }
 
 .gray-info {
-  padding-right: 30px;
-  padding-left: 30px;
   padding-top: 10px;
+}
+
+.our-approach {
+  background-color: white;
+  color: black;
+  padding: 10px;
 }
 
 .blue-slash {
@@ -78,7 +91,6 @@
 }
 
 .recent-projects {
-  margin-top: 30px;
   color: $blue;
 }
 
@@ -91,4 +103,11 @@
   padding-right: 30px;
   color: $blue;
   background-color: white;
+}
+
+.black-line {
+  background-color: black;
+}
+.hidden {
+  display: none;
 }
