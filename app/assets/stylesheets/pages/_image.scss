@@ -65,14 +65,13 @@
 
 /* Container for image text */
 .caption-container {
-  margin-top: 20px;
-  text-align: center;
-  background-color: #222;
-  padding-left: 30px;
+  text-align: left;
+  // background-color: #222;
+  padding-left: 15px;
   padding-right: 30px;
-  color: white;
-  background-color: $blue;
-  border-radius: 3px;
+  color: $dark-gray;
+  // background-color: $blue;
+  // border-radius: 3px;
 }
 
 .row {
