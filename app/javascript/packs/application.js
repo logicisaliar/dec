@@ -3,7 +3,10 @@ import { plusSlides } from '../components/image';
 import { showSlides } from '../components/image';
 import { currentSlides } from '../components/image';
 import { loadDynamicBannerText } from '../components/banner';
-// loadDynamicBannerText();
-plusSlides();
+import { details } from '../components/details';
+
+loadDynamicBannerText();
+details();
 showSlides();
+plusSlides();
 currentSlides();
