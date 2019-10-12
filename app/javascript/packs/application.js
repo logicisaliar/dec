@@ -4,9 +4,9 @@ import { showSlides } from '../components/image';
 import { currentSlides } from '../components/image';
 import { loadDynamicBannerText } from '../components/banner';
 import { details } from '../components/details';
-import { initUpdateNavbarOnScroll } from '../components/navbar';
+// import { initUpdateNavbarOnScroll } from '../components/navbar';
 
-initUpdateNavbarOnScroll();
+// initUpdateNavbarOnScroll();
 loadDynamicBannerText();
 details();
 showSlides();
