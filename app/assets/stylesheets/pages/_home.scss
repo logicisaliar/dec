@@ -1,4 +1,5 @@
 
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -18,11 +19,12 @@
   font-family: $body-font;
 }
 
-.banner hr {
-  width: 38px;
-  border: 2px solid white;
-  align: left;
-}
+// .banner hr {
+//   width: 38px;
+//   border: 2px solid white;
+//   align: left;
+// }
+
 .banner p {
   font-size: 20px;
   color: white;
@@ -70,12 +72,13 @@
 }
 
 #our-services {
-  margin-top: 20px;
+  background-color: white;
   color: $blue;
   line-height: 1.5;
 }
 
 .gray-info {
+  background-color: white;
   padding-top: 10px;
 }
 
@@ -112,7 +115,9 @@
 
 .black-line {
   background-color: black;
+  color: black;
 }
+
 .hidden {
   display: none;
 }
@@ -122,8 +127,29 @@
   color: $dark-gray;
 }
 
+@keyframes example {
+  0%   {
+    background-color: rgba($gray, 1);
+  }
+  50%  {
+    background-color: $white;
+  }
+}
+
 .detail-text {
   font-size: 15px;
+  animation-name: example;
+  background-color: $gray;
+  border: 2px solid white;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  padding-right: 10px;
+}
+
+.detail-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 
@@ -152,4 +178,8 @@
 .black {
   background-color: $dark-gray;
   margin-top: 10px;
+}
+
+.read-more {
+  color: white;
 }

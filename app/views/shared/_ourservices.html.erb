@@ -1,44 +1,29 @@
+<% head1 = "Interior and Exterior Finishing Job, Civil Works and MEP..." %>
+<% body1 = "We have an enviable track record for delivering excellent finishing jobs. Our expertise includes fine execution of civil related works such as sourcing RCC frame construction, masonry works, tiling works, painting jobs, waterproofing and many more. We have a dedicated team of experts to execute electric jobs, plumbing, HVAC, Firefighting works (MEP) to deliver the project requirements. From inception to installation, we take care of all your needs making the process hassle-free." %>
+<% head2 = " Interior Décor" %>
+<% body2 = "We firmly believe that it’s the little things that make a difference. With our interior décor services, we’ll transform your space and set the mood with some stunning touches. Our design aesthetic is inspired by the styles of the East and the West. It evolves around eclectic style, a unique combination of periods and styles and modern patterns curated with a neutral colour palette that promises a touch of sophistication to space. We design spaces keeping in mind the needs of the project and add our personal touch to your design needs. We are known to have an eye for designing luxurious spaces. From choosing the best quality product to the final finishing details, our team ensures that we capture even the smallest details of your masterpiece." %>
+<% head3 = " Design Consultation" %>
+<% body3 = "In search of some innovative ideas to transform your space? You are at the right place! Get a free consultation from our designers. We’ll make the process smooth for you by helping you visualise your space before we design it for you. Our range of services include Designs & revamping, providing drawings, 3D Modelling for clear visualization, installations with furniture layouts and the estimation for your project. For each of our services, we have experienced professionals to handle your project with utmost detail and care." %>
+<% head4 = " Doors/Windows design and Installation" %>
+<% body4 = "Doors and windows are important elements that make a first impression when one enters a home. When designed thoughtfully, it can serve as an impressive focal point. We are specialists for design, fabrication and maintenance of robust, versatile and high-performance doors and windows. We have a specialized division dedicated to design, fabrication and installation of Aluminium Door and windows, Façade and Glazing specific to your ever-changing needs. We have the tools and the experience to design and execute the job with high standards at economical rates." %>
+
+
 <div id="our-services">
   <div class="">
     <%= image_tag("blue-highlighter.png", size: "55x20") %><i>OUR SERVICES</i>
   </div>
   <div class="gray-info home-margin">
-    <div class="detail-text">
-      <h7><strong>/</strong> Design Consultation<br></h7>
-      <div class="hidden detail-design">
-        <p>Looking for some great options or some innovative idea? Relax , we are here for you! we provide you with free consultation with our Designers who are specialized and suitable to your need. Our design service includes Design & Drawings,3D Modelling for better visualization, installation drawings with furniture layouts and also includes estimation of your project. We can help for Structural Designing as well with the help of our consultants for structural drawings and models.</p>
-      </div>
-    </div>
-    <div class="detail-text">
-      <h7><strong>/</strong> Civil Works,MEP, Interior and Exterior Finishing Job<br></h7>
-      <div class="hidden detail-design">
-        <p>We have vast experience of execution of civil related works which includes but not limited to RCC frame construction, Masonry works, Tiling works, Painting jobs, waterproofing etc. We also have specialized team for electric, plumbing, HVAC, Fire fighting works (MEP) based on Project requirements..</p>
-      </div>
-    </div>
-    <div class="detail-text">
-      <h7><strong>/</strong> Interior Decor<br></h7>
-      <div class="hidden detail-design">
-        <p>Transformation space happens here! It is all about the magic of right colours/ material selections, space management and correct furniture; these are few key elements for perfect work. We provide complete service right from choosing quality product, getting the best material from the market and execution / installation by our expert skilled manpower. We make sure every bit falls on the right spot to complete your masterpiece..</p>
-      </div>
-    </div>
+    <%= render 'shared/detail', head: head1, body: body1 %>
+    <%= render 'shared/detail', head: head2, body: body2 %>
+    <%= render 'shared/detail', head: head3, body: body3 %>
+    <%= render 'shared/detail', head: head4, body: body4 %>
+  </div>
 
-    <div class="detail-text">
-      <h7><strong>/</strong> Doors/ Windows design and Installation<br></h7>
-      <div class="hidden detail-design">
-        <p>
-          Solid walls blocking your view? Or need clean view from your drawing room or your personal cabin? We provide solution for that too. We have separate department dedicated for Design and Installation of Alluminium Windows, ACP cladding, Glass Facades, Glass partitions specific to your needs.
-        </p>
-      </div>
+  <div class="white">
+    <br>
+    <div class="home-margin our-approach">
+      <h6>Decent Interiors strives to be the single point contact for providing complete solutions for all your interior needs. We’re not only your partners in designing and execution but also your advocate. Your project is as special to us as it is to you. We go the extra mile to create the space you envisioned and hence we create a fun and exciting experience for you by engaging you in our entire process. We pride ourselves in having strong time, team and project management skills. Our commitments become our actions!</h6>
     </div>
     <br>
-  </div>
-</div>
 
-<div class="white">
-<br>
-  <div class="home-margin our-approach">
-    <h6>Our approach is to provide complete solution for all your needs with single point contact. We will provide live updated everyday to execution work at site, We follow strong principles of project management with team of expert manager.</h6>
   </div>
-<br>
-
-</div>
