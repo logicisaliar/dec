@@ -123,10 +123,13 @@ h5 {
 #have-something {
   padding-left: 30px;
   padding-right: 30px;
-  background-color: $dark-gray;
+  background-color: $getit-gray;
   color: black;
 }
 
+#have-something a {
+  color: black;
+}
 .black-line {
   background-color: black;
   color: black;
@@ -180,8 +183,8 @@ h5 {
 }
 
 .bottom-text {
-  color: $gray;
-  background-color: $dark-gray;
+  color: black;
+  background-color: $getit-gray;
   padding-bottom: 1px;
 }
 
@@ -195,7 +198,7 @@ h5 {
 }
 
 .black {
-  background-color: $dark-gray;
+  background-color: $getit-gray;
   margin-top: 10px;
 }
 
