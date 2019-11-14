@@ -163,7 +163,7 @@ h5 {
 .detail-head {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 
 
@@ -182,6 +182,7 @@ h5 {
 .bottom-text {
   color: $gray;
   background-color: $dark-gray;
+  padding-bottom: 1px;
 }
 
 .bottom-text a {
@@ -200,4 +201,11 @@ h5 {
 
 .read-more {
   color: white;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1;
 }
