@@ -6,19 +6,23 @@
 
 <div class="home-margin">
   <div class="about-text">
-    <div class="sans-serif">
-      <h4>
+    <h3>
+      <strong>
         At Decent, we are a well-knit team of constructors and designers with an experience of more than 20 years in the field of interior designing and project execution.
-      </h4>
-      <h4>
+      </strong>
+    </h3>
+    <h3>
+      <strong>
         We make sure that a mere location composed of bricks and cement is turned into the dream space you have envisioned. Inducing creativity in our work, we deliver exceptional end-to-end solutions. We help you create spaces where you spend time into places you don’t want to leave.
-      </h4>
-    </div>
+      </strong>
+    </h3>
   </div>
-  <div class="whatsapp">
-    <!-- <i class="fab fa-whatsapp"></i> -->
+  <!-- <i class="fab fa-whatsapp"></i> -->
+  <div class="whatsapp-parent">
+    <div class="whatsapp">
     <%= image_tag("whatsapp-icon.png", size: "50x50") %>
-    <%= link_to "", "https://api.whatsapp.com/send?phone=919920204292&text=Hello%20Decent%20Interiors,%20I%20found%20this%20number%20on%20your%20website.%20When%20would%20it%20be%20a%20good%20time%20to%20get%20on%20call?&source=&data=", class: "" %>
+      <%= link_to "", "https://api.whatsapp.com/send?phone=919920204292&text=Hello%20Decent%20Interiors,%20I%20found%20this%20number%20on%20your%20website.%20When%20would%20it%20be%20a%20good%20time%20to%20get%20on%20call?&source=&data=", class: "" %>
+    </div>
   </div>
 
   <div class="about-blue">
@@ -48,7 +52,7 @@
 <div class="recent-contact">
   <div id="recent-projects">
     <div class="blus-slash">
-      <%= image_tag("blue-highlighter.png", size: "55x20") %> <i> RECENT MAJOR PROJECTS</i>
+      <%= image_tag("blue-highlighter.png", size: "55x20") %> <i style="font-family:  'Libre Caslon Text', serif;"> RECENT MAJOR PROJECTS</i>
     </div>
   </div>
   <%= render 'shared/image' %>
