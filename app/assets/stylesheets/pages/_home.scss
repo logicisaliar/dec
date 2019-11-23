@@ -19,12 +19,6 @@
   font-family: $body-font;
 }
 
-// .banner hr {
-//   width: 38px;
-//   border: 2px solid white;
-//   align: left;
-// }
-
 .banner p {
   font-size: 20px;
   color: white;
@@ -33,18 +27,15 @@
 }
 
 .home-margin {
-  margin-right: 12%;
   margin-left: 12%;
+  margin-right: 12%;
 }
 
 .about-text {
   background-color: white;
-  // box-shadow: 1px 2px rgba(0,0,0,0.1);
   color: black;
   margin-top: 20px;
   margin-bottom: 20px;
-  // border: 3px solid $blue;
-  // line-height: 1.4 !important;
   border-radius: 5px;
 }
 
@@ -215,10 +206,11 @@ h5 {
   color: white;
 }
 
-.whatsapp-parent:hover {
+.whatsapp:hover {
   cursor: hand;
   cursor: pointer;
   opacity: .9;
+  color: white;
 }
 
 .whatsapp {
@@ -227,22 +219,4 @@ h5 {
   right: 20px;
   z-index: 1;
 }
-
-.whatsapp a {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-decoration: none;
-    /* Makes sure the link doesn't get underlined */
-    z-index: 10;
-    /* raises anchor tag above everything else in div */
-    background-color: white;
-    /*workaround to make clickable in IE */
-    opacity: 0;
-    /*workaround to make clickable in IE */
-    filter: alpha(opacity=0);
-    /*workaround to make clickable in IE */
-  }
 
