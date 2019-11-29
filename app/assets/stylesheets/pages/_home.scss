@@ -1,29 +1,8 @@
 
-
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-}
-
-// .banner-width {
-//   width: 100%
-// }
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 40px;
-  // font-weight: bold;
-  font-family: $body-font;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 .home-margin {
@@ -39,26 +18,44 @@
   border-radius: 5px;
 }
 
-.about-text h4 {
-  font-weight: bold;
-  font-size: 18px;
+@media screen and (min-width: 601px) {
+  div.font-parent {
+    font-size: 120px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.font-parent {
+    font-size: 100px;
+  }
 }
 
 .other-font {
   font-family: $other-font;
 }
 
+.blue-heading {
+  display: flex;
+  vertical-align: top;
+  i {
+    margin-top: -8px;
+    font-size: 0.25em;
+    font-family: 'Libre Caslon Text', serif;
+  }
+}
+
 h3 {
-  font-size: 14px;
+  font-size: 0.14em;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 0.12em;
   line-height: 1.6;
 }
 
 h5 {
-  font-size: 10px;
+  font-size: 0.1em;
 }
 
 .serif {
@@ -93,23 +90,24 @@ h5 {
 .gray-info {
   background-color: white;
   padding-top: 10px;
+  h3 {
+    font-size: 1em;
+  }
 }
 
 .our-approach {
   padding-top: 20px;
   background-color: white;
   color: $dark-gray;
-  font-size: 15px;
+  font-size: 0.15em;
   padding: 10px;
   h6 {
     line-height: 1.4;
   }
-}
 
-.blue-slash {
-  font-size: 25px;
-  display: flex;
-  vertical-align: baseline;
+  h4 {
+    font-size: 0.8em;
+  }
 }
 
 #recent-projects {
@@ -125,6 +123,7 @@ h5 {
   padding-right: 30px;
   background-color: $getit-gray;
   color: black;
+  padding-top: 5px;
 }
 
 #have-something a {
@@ -140,9 +139,14 @@ h5 {
 }
 
 .detail-design {
-  font-size: 12px;
+  font-size: 0.8em;
   color: $dark-gray;
 }
+
+.detail-sector h3 {
+  font-size: 0.14em;
+}
+
 
 @keyframes example {
   0%   {
@@ -154,7 +158,7 @@ h5 {
 }
 
 .detail-text {
-  font-size: 15px;
+  font-size: 0.15em;
   background-color: $gray;
   border: 2px solid white;
   animation-name: example;
@@ -171,7 +175,7 @@ h5 {
 
 
 .sector-text {
-  font-size: 15px;
+  font-size: 0.15em;
 }
 
 .detail-text:hover {
@@ -180,6 +184,8 @@ h5 {
 
 .above-text {
   color: $blue;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .bottom-text {
@@ -195,6 +201,7 @@ h5 {
 #sectors {
   background-color: white;
   color: $blue;
+  margin-bottom: 25px;
 }
 
 .black {
@@ -215,8 +222,7 @@ h5 {
 
 .whatsapp {
   position: fixed;
-  bottom: 30px;
+  bottom: 0px;
   right: 20px;
   z-index: 1;
 }
-

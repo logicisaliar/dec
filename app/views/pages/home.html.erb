@@ -4,60 +4,63 @@
 </div>
 <!-- Body -->
 
-<div class="home-margin">
-  <div class="about-text">
-    <h3>
-      <strong>
-        At Decent, we are a well-knit team of constructors and designers with an experience of more than 20 years in the field of interior designing and project execution.
-      </strong>
-    </h3>
-    <h3>
-      <strong>
-        We make sure that a mere location composed of bricks and cement is turned into the dream space you have envisioned. Inducing creativity in our work, we deliver exceptional end-to-end solutions. We help you create spaces where you spend time into places you don’t want to leave.
-      </strong>
-    </h3>
-  </div>
-  <div class="whatsapp">
-    <%= link_to image_tag("whatsapp-icon.png", size: "50x50"), "https://api.whatsapp.com/send?phone=919920204292&text=Hello%20Decent%20Interiors,%20I%20found%20this%20number%20on%20your%20website.%20When%20would%20it%20be%20a%20good%20time%20to%20get%20on%20call?&source=&data=", class: "" %>
-  </div>
+<div class="font-parent">
+  <div class="home-margin">
+    <div class="about-text">
+      <h3>
+        <strong>
+          At Decent, we are a well-knit team of constructors and designers with an experience of more than 20 years in the field of interior designing and project execution.
+        </strong>
+      </h3>
+      <h3>
+        <strong>
+          We make sure that a mere location composed of bricks and cement is turned into the dream space you have envisioned. Inducing creativity in our work, we deliver exceptional end-to-end solutions. We help you create spaces where you spend time into places you don’t want to leave.
+        </strong>
+      </h3>
+    </div>
+    <div class="whatsapp">
+      <%= link_to image_tag("whatsapp-icon.png", size: "50x50"), "https://api.whatsapp.com/send?phone=919920204292&text=Hello%20Decent%20Interiors,%20I%20found%20this%20number%20on%20your%20website.%20When%20would%20it%20be%20a%20good%20time%20to%20get%20on%20call?&source=&data=", class: "" %>
+    </div>
 
-  <div class="about-blue">
-    <h4>
-      We have executed projects in all sectors and are experts in;
-      <br>•  Luxurious Lounges / Cafés / Restaurants
-      <br>•  Commercial Showroom
-      <br>•  Corporate Offices and Workspace Designs
-      <br>•  Gyms
-      <br>•  Residential Spaces – Apartments, Studios, Bungalows
-    </h4>
-  </div>
-</div>
-<div class="home-margin">
-  <div class="black-line">
-    <hr>
-  </div>
-</div>
-<%= render 'shared/ourservices' %>
-<div class="home-margin">
-  <div class="black-line">
-    <hr>
-  </div>
-</div>
-<%= render 'shared/sectors' %>
-
-<div class="recent-contact">
-  <div id="recent-projects">
-    <div class="blus-slash">
-      <%= image_tag("blue-highlighter.png", size: "55x20") %> <i style="font-family:  'Libre Caslon Text', serif;"> RECENT MAJOR PROJECTS</i>
+    <div class="about-blue">
+      <h4>
+        We have executed projects in all sectors and are experts in;
+        <br>•  Luxurious Lounges / Cafés / Restaurants
+        <br>•  Commercial Showroom
+        <br>•  Corporate Offices and Workspace Designs
+        <br>•  Gyms
+        <br>•  Residential Spaces – Apartments, Studios, Bungalows
+      </h4>
     </div>
   </div>
-  <%= render 'shared/image' %>
   <div class="home-margin">
     <div class="black-line">
       <hr>
     </div>
   </div>
-  <%= render 'shared/getintouch' %>
-  <!-- About -->
-  <%#= render 'shared/about' %>
+  <%= render 'shared/ourservices' %>
+  <div class="home-margin">
+    <div class="black-line">
+      <hr>
+    </div>
+  </div>
+  <%= render 'shared/sectors' %>
+
+  <div class="recent-contact">
+    <div id="recent-projects">
+      <div class="blue-heading">
+        <%= image_tag("blue-highlighter.png", size: "55x20") %>
+        <i> RECENT MAJOR PROJECTS</i>
+      </div>
+    </div>
+    <%= render 'shared/image' %>
+    <div class="home-margin">
+      <div class="black-line">
+        <hr>
+      </div>
+    </div>
+    <%= render 'shared/getintouch' %>
+    <!-- About -->
+    <%#= render 'shared/about' %>
+  </div>
 </div>
