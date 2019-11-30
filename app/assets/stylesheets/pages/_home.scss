@@ -98,7 +98,7 @@ h5 {
 .our-approach {
   padding-top: 20px;
   background-color: white;
-  color: $dark-gray;
+  color: black;
   font-size: 0.15em;
   padding: 10px;
   h6 {
@@ -141,10 +141,15 @@ h5 {
 .detail-design {
   font-size: 0.8em;
   color: $dark-gray;
+  padding-left: 15px;
 }
 
 .detail-sector h3 {
   font-size: 0.14em;
+}
+
+.detail-arrow {
+  padding-right: 10px;
 }
 
 
@@ -201,7 +206,7 @@ h5 {
 #sectors {
   background-color: white;
   color: $blue;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .black {
